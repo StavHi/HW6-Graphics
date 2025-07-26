@@ -29,7 +29,6 @@
 ## Description of physics system implementation:
 
 All physics system that were required in the mandatory part are implemented in the file src/ShotMachnism.js.
-Your physics system must implement realistic basketball mechanics:
 
 1. Gravity and Trajectory
 - Constant downward acceleration (gravity = -9.8 m/s² or scaled equivalent)
@@ -41,19 +40,19 @@ Your physics system must implement realistic basketball mechanics:
 - Ball-to-ground collision with bounce mechanics
 - Ball-to-rim collision for successful shots
 - Energy loss on each bounce (coefficient of restitution)
-- Ball should come to rest after multiple bounces
+- Ball comes to rest after multiple bounces
 
 3. Shot Mechanics
 - Adjustable shot power affecting initial velocity
 - Shot angle calculation based on basketball position relative to hoop
 - Minimum arc height to clear rim for successful shots
-- Ball must pass through hoop area for score detection
+- Ball passes through hoop area for score detection
 
 4. Rotation animation
-- Add ball rotation during movement
-- Implement rotation during flight
-- Match rotation axis to movement direction
-- Scale rotation speed with velocity
+- Added ball rotation during movement
+- Implemented rotation during flight
+- Matched rotation axis to movement direction
+- Scaled rotation speed with velocity
 
 ## Implementation:
 - No additional features are implemented.
@@ -68,6 +67,7 @@ Your physics system must implement realistic basketball mechanics:
 # Screenshots:
 
 Clicking on the screenshot will open better quality version of the picture
+
 ## Video
 **Please click on the following GIF (reduced the fps to create it) to see the full video:**
 [![Watch demo](./screenshots/Video.gif)](./screenshots/Video.mp4)
