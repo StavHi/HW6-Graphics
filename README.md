@@ -1,4 +1,4 @@
-# Computer Graphics - Exercise 5 - WebGL Basketball Court
+# Computer Graphics - Exercise 6 - WebGL Basketball Court
 
 ## Getting Started
 1. Clone this repository to your local machine
@@ -68,6 +68,9 @@ Your physics system must implement realistic basketball mechanics:
 # Screenshots:
 
 Clicking on the screenshot will open better quality version of the picture
+## Video
+**Please click on the following GIF (reduced the fps to create it) to see the full video:**
+[![Watch demo](./screenshots/Video.gif)](./screenshots/Video.mp4)
 
 ## View demonstrating functionality
 ![alt text](./screenshots/1.PNG)
